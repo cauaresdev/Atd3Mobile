@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/meli_background_dark">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Início\n\nDesenvolvido por: Cauã Rosa do Espírito Santo"
+        android:textColor="@color/meli_yellow"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</FrameLayout>

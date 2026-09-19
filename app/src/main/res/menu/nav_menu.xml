@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_offers"
+            android:icon="@drawable/ic_local_offer"
+            android:title="Ofertas do dia" />
+        <item
+            android:id="@+id/nav_supermarket"
+            android:icon="@drawable/ic_store"
+            android:title="Supermercado" />
+        <item
+            android:id="@+id/nav_fashion"
+            android:icon="@drawable/ic_checkroom"
+            android:title="Moda" />
+        <item
+            android:id="@+id/nav_vehicles"
+            android:icon="@drawable/ic_directions_car"
+            android:title="Veículos" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_history"
+            android:title="Histórico" />
+    </group>
+</menu>
